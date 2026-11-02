@@ -1,0 +1,25 @@
+project:
+  type: website
+  output-dir: docs
+  render:
+    - index.qmd
+
+website:
+  title: "Attività di ricerca"
+
+format:
+  revealjs:
+    theme: default
+    css: styles.css
+    transition: fade
+    background-transition: fade
+    slide-number: c/t
+    controls: true
+    progress: true
+    center: true
+    width: 1280
+    height: 720
+    margin: 0.04
+    scroll-view: false
+    chalkboard: false
+    preview-links: true

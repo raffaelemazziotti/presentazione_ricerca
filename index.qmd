@@ -1,0 +1,225 @@
+---
+title: "Research Overview"
+subtitle: "From neural circuits to behavioural and physiological phenotypes"
+author: "Raffaele M. Mazziotti"
+date: "2026-11-04"
+format:
+  revealjs:
+    scroll-view: false
+---
+
+## From neural mechanisms to translational markers
+
+::: {.lead}
+My research focus is on [neuronal plasticity]{.highlight}. Using different approaches:
+:::
+
+::: {.research-map}
+::: {.fragment .map-item}
+**01 · Ephys**
+
+How does sensory experience shape visual circuits?
+:::
+::: {.fragment .map-item}
+**02 · Functional Imaging**
+
+How activation in different brain areas is affected by visual experience?
+:::
+::: {.fragment .map-item}
+**03 · Behavior**
+
+Is experience influencing brain output?
+:::
+:::
+
+## How I got here and where I am going
+
+::: {.lead}
+My work on [visual cortical plasticity]{.highlight} has evolved from understanding its molecular regulation to decoding visual information for translational applications.
+:::
+
+::: {.research-map}
+::: {.fragment .map-item}
+**01 · Epigenetic control**
+
+I first investigated how epigenetic factors regulate ocular-dominance plasticity and the development of depth perception.
+:::
+::: {.fragment .map-item}
+**02 · Peripheral modulation**
+
+I then examined how peripheral factors influence (like `gut microbiome`) visual cortical plasticity and shape the brain’s response to sensory experience.
+:::
+::: {.fragment .map-item}
+**03 · Neural decoding & prosthetics**
+
+I am now studying V1 neural codes to reconstruct what a mouse sees over time, with potential applications in visual prosthetics.
+:::
+:::
+
+::: {.fragment .callout}
+The common thread is understanding how experience is translated into a stable — and potentially decodable — cortical representation.
+:::
+
+## Selected publications — visual cortical plasticity
+
+::: {.publication-list}
+::: {.fragment .publication-item}
+![](images/publications/nature_comm.png)
+:::
+::: {.fragment .publication-item}
+![](images/publications/visual_plasticity.png)
+:::
+::: {.fragment .publication-item}
+![](images/publications/microbiota.png)
+:::
+::: {.fragment .publication-item}
+![](images/publications/deb_art.png)
+:::
+::: {.fragment .publication-item}
+![](images/publications/running.png)
+:::
+:::
+
+## Functional imaging in neurodevelopmental disorders
+
+::: {.lead}
+I use functional imaging to identify [physiological biomarkers]{.highlight} in neurodevelopmental disorders — quantitative signals that can describe brain function beyond clinical observation alone.
+:::
+
+::: {.research-map}
+::: {.fragment .map-item}
+**01 · The goal**
+
+Identify robust functional markers that distinguish altered neural processing and can be followed across development or treatment.
+:::
+::: {.fragment .map-item}
+**02 · Disease models**
+
+I focus on CDKL5 Deficiency Disorder (CDD) and Creatine Transporter Deficiency (CTD), two conditions with distinct developmental and neurological phenotypes.
+:::
+::: {.fragment .map-item}
+**03 · Multimodal readouts**
+
+Intrinsic optical signal imaging, visual evoked potentials and EEG provide complementary measures of cortical function.
+:::
+:::
+
+::: {.fragment .callout}
+The aim is not a single measure, but an interpretable [biosignature]{.core}: a profile that links circuit function to the clinical phenotype.
+:::
+
+## Neurodevelopmental biomarkers: selected outputs
+
+::: {.biomarker-outputs}
+::: {.fragment .biomarker-output}
+![](images/neurodevelopment/ios_response_amplitude.png)
+:::
+::: {.fragment .biomarker-output}
+![](images/neurodevelopment/ios_visual_acuity.png)
+:::
+::: {.fragment .biomarker-output}
+![](images/neurodevelopment/ios_vep.png)
+:::
+:::
+
+## Selected publications — neurodevelopmental disorders
+
+::: {.publication-list}
+::: {.fragment .publication-item}
+![](images/publications-neurodevelopment/cdkl5_biomarkers.png)
+:::
+::: {.fragment .publication-item}
+![](images/publications-neurodevelopment/cdkl5_visual_system.png)
+:::
+::: {.fragment .publication-item}
+![](images/publications-neurodevelopment/cdkl5_substitution_therapy.png)
+:::
+::: {.fragment .publication-item}
+![](images/publications-neurodevelopment/cdkl5_mglur5.png)
+:::
+::: {.fragment .publication-item}
+![](images/publications-neurodevelopment/crt_cyclocrt.png)
+:::
+::: {.fragment .publication-item}
+![](images/publications-neurodevelopment/crt_novel_tranls.png)
+:::
+::: {.fragment .publication-item}
+![](images/publications-neurodevelopment/crt_parva.png)
+:::
+:::
+
+## fNIRS in humans
+
+::: {.lead}
+Functional near-infrared spectroscopy (fNIRS) makes it possible to measure cortical haemodynamics in [human participants]{.highlight} during engaging and developmentally appropriate tasks.
+:::
+
+::: {.research-map}
+::: {.fragment .map-item}
+**01 · Naturalistic measurement**
+
+Portable, non-invasive fNIRS can be used while participants watch audiovisual material or engage with an experimenter.
+:::
+::: {.fragment .map-item}
+**02 · Across development**
+
+The method is well suited to children as well as adults, supporting studies of developmental trajectories and individual variability.
+:::
+::: {.fragment .map-item}
+**03 · Translational potential**
+
+Human fNIRS can connect circuit-level findings from preclinical models to clinically relevant functional measures.
+:::
+:::
+
+## Human fNIRS: from stimulus to functional marker
+
+::: {.two-col}
+::: {.panel}
+**Child-friendly paradigms**
+
+Engaging audiovisual stimuli — for example *Peppa Pig* or *Finding Nemo* — help maintain attention while preserving experimental control.
+
+::: {.fragment}
+This makes it possible to acquire higher-quality recordings in children and clinical populations.
+:::
+:::
+::: {.panel}
+**Physiological readouts**
+
+- Oxy- and deoxyhaemoglobin responses
+- Response amplitude and latency
+- Lateralisation and functional connectivity
+- Between-participant variability
+:::
+:::
+
+## fNIRS as a candidate human biomarker
+
+::: {.flow}
+::: {.flow-step}
+**Engaging task**
+
+Present a developmentally appropriate audiovisual or social stimulus.
+:::
+::: {.flow-arrow}
+→
+:::
+::: {.flow-step}
+**Haemodynamic response**
+
+Measure the cortical response with fNIRS over time.
+:::
+::: {.flow-arrow}
+→
+:::
+::: {.flow-step}
+**Functional profile**
+
+Relate response features to age, social abilities or clinical phenotype.
+:::
+:::
+
+::: {.fragment .callout}
+The objective is to identify reproducible human markers that can complement behavioural assessment and other physiological measures.
+:::
