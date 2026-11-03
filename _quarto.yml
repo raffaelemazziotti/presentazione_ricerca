@@ -5,6 +5,20 @@ project:
     - index.qmd
   resources:
     - images/imgs/fnirs_peppa.mp4
+    - images/imgs/pupil_interspecie.mp4
+    - images/imgs/frank_stabilized.mp4
+    - images/widefield/dff_areas.mp4
+    - images/widefield/eye_masks.mp4
+    - images/widefield/dff_areas_web.mp4
+    - images/widefield/eye_masks_web.mp4
+    - images/widefield/dff_poster.png
+    - images/widefield/eye_poster.png
+    - images/widefield/1_atlas_alignment.png
+    - images/widefield/4_area_dff_behavior.png
+    - images/miniscope/setup.png
+    - images/miniscope/recordings.png
+    - images/miniscope/miniscope_web.mp4
+    - images/miniscope/miniscope_poster.png
 
 website:
   title: "Attività di ricerca"

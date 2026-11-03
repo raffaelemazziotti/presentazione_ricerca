@@ -11,14 +11,14 @@
     "href": "index.html#how-i-got-here-and-where-i-am-going",
     "title": "Research Overview",
     "section": "How I got here and where I am going",
-    "text": "How I got here and where I am going\n\n\n\nMy work on visual cortical plasticity has evolved from understanding its molecular regulation to decoding visual information for translational applications.\n\n\n\n\n\n\n01 · Epigenetic control\nI first investigated how epigenetic (such as MiR-132/212) factors regulate ocular-dominance plasticity and the development of depth perception.\n\n\n\n02 · Peripheral modulation\nI then examined how peripheral factors influence (like gut microbiome) visual cortical plasticity and shape the brain’s response to sensory experience.\n\n\n\n03 · Neural decoding & prosthetics\nI am now studying V1 neural codes to reconstruct what a mouse sees over time, with potential applications in visual prosthetics of the optic nerve.\n\n\n\n\n\n\n\nThe common thread is understanding how experience is translated into a stable — and potentially decodable — cortical representation."
+    "text": "How I got here and where I am going\n\n\n\nMy work on visual cortical plasticity has evolved from understanding its molecular regulation to decoding visual information for translational applications.\n\n\n\n\n\n\n01 · Epigenetic control\nI first investigated how epigenetic (such as MiR-132/212) factors regulate ocular-dominance plasticity and the development of depth perception.\n\n\n\n02 · Peripheral modulation\nI then examined how peripheral factors influence (like gut microbiome) visual cortical plasticity and shape the brain’s response to sensory experience.\n\n\n\n03 · Neural decoding & prosthetics\nI am now studying V1 neural codes to reconstruct what a mouse sees over time, with potential applications in visual prosthetics of the optic nerve."
   },
   {
-    "objectID": "index.html#selected-publications-visual-cortical-plasticity",
-    "href": "index.html#selected-publications-visual-cortical-plasticity",
+    "objectID": "index.html#selected-publications---visual-cortical-plasticity",
+    "href": "index.html#selected-publications---visual-cortical-plasticity",
     "title": "Research Overview",
-    "section": "Selected publications — visual cortical plasticity",
-    "text": "Selected publications — visual cortical plasticity"
+    "section": "Selected publications - visual cortical plasticity",
+    "text": "Selected publications - visual cortical plasticity"
   },
   {
     "objectID": "index.html#functional-imaging-in-neurodevelopmental-disorders",
@@ -35,31 +35,66 @@
     "text": "Neurodevelopmental biomarkers: selected outputs"
   },
   {
-    "objectID": "index.html#selected-publications-neurodevelopmental-disorders",
-    "href": "index.html#selected-publications-neurodevelopmental-disorders",
+    "objectID": "index.html#selected-publications---neurodevelopmental-disorders",
+    "href": "index.html#selected-publications---neurodevelopmental-disorders",
     "title": "Research Overview",
-    "section": "Selected publications — neurodevelopmental disorders",
-    "text": "Selected publications — neurodevelopmental disorders"
+    "section": "Selected publications - neurodevelopmental disorders",
+    "text": "Selected publications - neurodevelopmental disorders"
   },
   {
     "objectID": "index.html#fnirs-in-humans",
     "href": "index.html#fnirs-in-humans",
     "title": "Research Overview",
     "section": "fNIRS in humans",
-    "text": "fNIRS in humans\n\nFunctional near-infrared spectroscopy (fNIRS) makes it possible to measure cortical haemodynamics in human participants during engaging and developmentally appropriate tasks.\n\n\n\n01 · Non-invasive measurement\nPortable, non-invasive fNIRS can be used while participants watch audiovisual material or engage with an experimenter.\n\n\n\n02 · Across development\nThe method is well suited to children and adults, for studies of developmental trajectories and individual variability.\n\n\n\n03 · Translational potential\nHuman fNIRS can connect circuit-level findings from preclinical models to clinically relevant functional measures."
+    "text": "fNIRS in humans\n\nFunctional near-infrared spectroscopy (fNIRS) measures cortical haemodynamic responses in human participants during engaging, age-appropriate tasks.\n\n\n\n01 · Non-invasive measurement\nPortable, non-invasive fNIRS allows participants to watch audiovisual stimuli or interact with an experimenter while cortical responses are recorded.\n\n\n\n02 · Across development\nfNIRS can be used in children and adults to study developmental trajectories and individual differences.\n\n\n\n03 · Translational potential\nHuman fNIRS can link circuit-level findings from preclinical models to functional measures relevant to clinical studies."
   },
   {
     "objectID": "index.html#human-fnirs-from-stimulus-to-functional-marker",
     "href": "index.html#human-fnirs-from-stimulus-to-functional-marker",
     "title": "Research Overview",
     "section": "Human fNIRS: from stimulus to functional marker",
-    "text": "Human fNIRS: from stimulus to functional marker\n\n\nChild-friendly paradigms\nEngaging audiovisual stimuli based on cartoons selected by the participants that help maintain attention while preserving experimental control. This makes it possible to acquire higher-quality recordings in children and clinical populations.\n\n\n\n\nPhysiological readouts\n\nOxy- and deoxyhaemoglobin responses\nResponse amplitude and latency\nLateralisation and functional connectivity\nBetween-participant variability"
+    "text": "Human fNIRS: from stimulus to functional marker\n\n\nChild-friendly paradigms\nAge-appropriate cartoons chosen with participants can sustain attention while retaining experimental control. This approach can improve recording quality in children and clinical populations.\n\n\n\n\nPhysiological readouts\n\nChanges in oxygenated and deoxygenated haemoglobin\nResponse amplitude and timing\nHemispheric asymmetry and functional connectivity\nVariation across participants"
   },
   {
     "objectID": "index.html#fnirs-as-a-candidate-human-biomarker",
     "href": "index.html#fnirs-as-a-candidate-human-biomarker",
     "title": "Research Overview",
     "section": "fNIRS as a candidate human biomarker",
-    "text": "fNIRS as a candidate human biomarker\n\n\nEngaging task\nPresent a developmentally appropriate audiovisual or social stimulus.\n\n\n→\n\n\nHaemodynamic response\nMeasure the cortical response with fNIRS over time.\n\n\n→\n\n\nFunctional profile\nRelate response features to age, social abilities or clinical phenotype.\n\n\n\n\n\n\nThe objective is to identify reproducible human markers that can complement behavioural assessment and other physiological measures."
+    "text": "fNIRS as a candidate human biomarker\n\n\nVisual responses and autistic traits\nIn typically developing children, the amplitude of the visually evoked haemodynamic response is associated with Autism Spectrum Quotient (AQ) scores.\n\n\n\n\n\n\n\n\nVisual responses in autism\nIn preschoolers with autism spectrum disorder (ASD), visually evoked cortical responses were reduced relative to controls."
+  },
+  {
+    "objectID": "index.html#translational-fnirs-in-creatine-transporter-deficiency",
+    "href": "index.html#translational-fnirs-in-creatine-transporter-deficiency",
+    "title": "Research Overview",
+    "section": "Translational fNIRS in creatine transporter deficiency",
+    "text": "Translational fNIRS in creatine transporter deficiency\n\nPreliminary results\n\n\n\nHuman fNIRS\nIn participants with creatine transporter deficiency (CTD), visually evoked oxygenated haemoglobin (HbO) responses were larger than in controls.\n\n\n\n\n\nPreclinical IOS\nIntrinsic optical signal (IOS) imaging in a mouse model also reveals altered visual cortical responses."
+  },
+  {
+    "objectID": "index.html#pupillometry",
+    "href": "index.html#pupillometry",
+    "title": "Research Overview",
+    "section": "Pupillometry",
+    "text": "Pupillometry\n\n\n\nMEYE Interspecies pupillometry\n\n\nOpen-source pupil tracking across species, from camera recordings to quantitative pupil traces.\n\n\n\n\n\n\n\n\n\n\n\nMEYELens Open pupillometry and gaze tracking\n\n\n\n\n\nOpen hardware\n\n\n\n\n\nPupil tracking\n\n\n\n\n\n\nOpen meyelens.com"
+  },
+  {
+    "objectID": "index.html#pupillometry-applications",
+    "href": "index.html#pupillometry-applications",
+    "title": "Research Overview",
+    "section": "Pupillometry applications",
+    "text": "Pupillometry applications\n\n\n\nCDKL5 deficiency\n\n\nCDKL5 mutant mice show altered locomotor activity and pupil size, suggesting changes in arousal regulation.\n\n\n\n\n\n\n\n\n\n\nEmotional contagion\n\n\nPupil dilation scales with stimulus intensity in demonstrators and observers, providing a quantitative readout of vicarious responses."
+  },
+  {
+    "objectID": "index.html#widefield-imaging-and-pupillometry",
+    "href": "index.html#widefield-imaging-and-pupillometry",
+    "title": "Research Overview",
+    "section": "Widefield imaging and pupillometry",
+    "text": "Widefield imaging and pupillometry\n\nPreliminary results\n\n\n\n\n\nAtlas alignment\n\n\n\n\n\n\nRegional calcium activity\n\n\n\n\n\nActivity and behaviour\n\n\n\n\n\n\nEye and pupil masks"
+  },
+  {
+    "objectID": "index.html#brain-endoscopy",
+    "href": "index.html#brain-endoscopy",
+    "title": "Research Overview",
+    "section": "Brain Endoscopy",
+    "text": "Brain Endoscopy\n\nPreliminary results\n\n\n\n\n\nRecording setup\n\n\n\n\n\n\nCalcium activity\n\n\n\n\n\nExtracted calcium traces"
   }
 ]

@@ -70,3 +70,129 @@
 .reveal .fnirs-comparison .panel video { display: block; width: 100%; height: 240px; max-height: 240px; margin: auto 0 0; object-fit: contain; }
 .reveal .fnirs-comparison .panel > p:last-child { margin-top: auto; margin-bottom: 0; }
 .reveal .fnirs-comparison .panel > p:last-child img { display: block; width: 100%; height: 240px; max-width: 100%; max-height: 240px; margin: 0 auto; object-fit: contain; }
+
+/* fNIRS results: clear evidence panels and a visible preliminary-results marker. */
+.reveal .preliminary-badge { display: inline-block; width: max-content; margin: -.15em 0 .75em; padding: .25em .75em; border: 1px solid rgba(255,224,145,.7); border-radius: 999px; background: rgba(255,224,145,.16); color: #ffe8a6; font-size: .52em; font-weight: 750; letter-spacing: .08em; text-transform: uppercase; }
+.reveal .preliminary-badge p { margin: 0; color: inherit; }
+.reveal .fnirs-evidence .panel { display: flex; flex-direction: column; min-height: 490px; }
+.reveal .fnirs-evidence .panel > p { margin: .3em 0; }
+.reveal .fnirs-evidence .panel > p:first-child { margin: 0 0 .35em; }
+.reveal .fnirs-evidence .evidence-figure { display: flex; align-items: center; justify-content: center; flex: 1; min-height: 235px; margin: .45em 0; }
+.reveal .fnirs-evidence .evidence-figure p { display: flex; align-items: center; justify-content: center; width: 100%; margin: 0; }
+.reveal .fnirs-evidence .evidence-figure img { display: block; max-width: 100%; max-height: 250px; margin: 0 auto; object-fit: contain; }
+.reveal .fnirs-evidence .evidence-source { display: flex; align-items: center; justify-content: center; height: 84px; padding-top: .4em; border-top: 1px solid var(--line); }
+.reveal .fnirs-evidence .evidence-source p { margin: 0; text-align: center; }
+.reveal .fnirs-evidence .evidence-source img { display: block; max-width: 100%; max-height: 76px; margin: 0 auto; object-fit: contain; }
+
+/* Pupillometry: compact diagrams and clearly separated preliminary findings. */
+.reveal .pupil-methods .panel { display:flex; flex-direction:column; min-height:430px; }
+.reveal .pupil-methods .panel > p:last-child { display:flex; align-items:center; justify-content:center; flex:1; margin:.35em 0 0; background:#fff; border-radius:7px; }
+.reveal .pupil-methods img { display:block; width:100%; max-height:225px; object-fit:contain; }
+.reveal .pupil-results .panel { min-height:415px; }
+.reveal .pupil-results .panel > p:last-child { text-align:center; margin:.55em 0 0; }
+.reveal .pupil-results img { display:block; width:auto; max-width:100%; max-height:215px; margin:0 auto; object-fit:contain; background:#fff; border-radius:7px; }
+.reveal .pupil-result { display:flex; align-items:flex-start; gap:.55em; margin:1.1em 0; padding:.65em .7em; background:rgba(120,199,255,.1); border-left:4px solid var(--blue); border-radius:6px; line-height:1.35; }
+.reveal .pupil-direction { color:var(--blue); font-size:1.6em; font-weight:800; line-height:1; }
+.reveal .pupil-source { margin-top:.6em; color:var(--muted); font-size:.42em; }
+.reveal .pupil-source p { color:inherit; margin:0; }
+/* Visible current/total slide number. */
+.reveal .slide-number { display:block !important; position:fixed; right:24px; bottom:16px; z-index:100; color:#f0f0f0 !important; background:rgba(20,28,34,.8); padding:5px 10px; border-radius:5px; font-size:17px; font-weight:700; opacity:1 !important; }
+.reveal .slide-number a { color:inherit !important; }
+/* MEYE and MEYELens showcase. */
+.reveal .pupillometry-showcase { gap:18px; align-items:stretch; }
+.reveal .pupillometry-showcase .panel { min-width:0; height:500px; box-sizing:border-box; display:flex; flex-direction:column; padding:18px; background:#353f42; border-color:rgba(75,204,197,.48); }
+.reveal .pupillometry-showcase h3 { margin:0 0 10px; padding:0 0 10px; color:#66d3ca; border-bottom:2px solid rgba(102,211,202,.5); font-size:1.24em; font-weight:800; line-height:1.1; }
+.reveal .pupillometry-showcase h3 span { display:block; margin-top:5px; color:#d8eeee; font-size:.54em; font-weight:550; letter-spacing:.02em; }
+.reveal .pupillometry-showcase .panel > p { margin:0 0 12px; font-size:.83em; line-height:1.35; }
+.reveal .meye-videos { display:grid; grid-template-columns:1fr 1fr; gap:10px; align-items:center; flex:1; min-height:0; }
+.reveal .meye-videos video { display:block; width:100%; height:275px; object-fit:contain; background:#111b1e; border:1px solid rgba(102,211,202,.35); border-radius:8px; }
+.reveal .pupil-paper-link,.reveal .meyelens-site-link { display:inline-block; align-self:flex-start; margin-top:12px; color:#76ded2 !important; font-size:.78em; font-weight:650; text-decoration:underline; text-underline-offset:4px; }
+.reveal .meyelens-site-frame { flex:1; min-height:0; overflow:hidden; background:#fff; border:2px solid #66d3ca; border-radius:8px; }
+.reveal .meyelens-site-frame iframe { display:block; width:100%; height:100%; border:0; background:#fff; }
+/* Match the MEYELens site palette and crop the iframe's white overflow edge. */
+.reveal .pupillometry-showcase .panel { background:#2d2f32; border-color:rgba(255,204,0,.48); }
+.reveal .pupillometry-showcase h3 { color:#ffcc00; border-bottom-color:rgba(255,204,0,.55); }
+.reveal .pupillometry-showcase h3 span { color:#e5ddd0; }
+.reveal .meye-videos video { background:#17191b; border-color:rgba(255,204,0,.35); }
+.reveal .pupil-paper-link,.reveal .meyelens-site-link { color:#ffcc00 !important; }
+.reveal .meyelens-site-frame { background:#2d2f32; border-color:#ffcc00; }
+.reveal .meyelens-site-frame iframe { width:calc(100% + 38px); height:calc(100% + 22px); background:#2d2f32; }
+/* MEYELens hardware and tutorial gallery. */
+.reveal .meyelens-panel .meyelens-visuals { display:grid; grid-template-columns:1fr 1fr; gap:12px; flex:1; min-height:0; align-items:stretch; }
+.reveal .meyelens-visuals figure { display:flex; flex-direction:column; align-items:center; justify-content:center; min-width:0; margin:0; padding:8px; background:#242629; border:1px solid rgba(255,204,0,.35); border-radius:8px; }
+.reveal .meyelens-visuals img { display:block; width:100%; height:270px; object-fit:contain; border-radius:4px; }
+.reveal .meyelens-visuals figcaption { margin-top:8px; color:#e5ddd0; font-size:.58em; font-weight:650; letter-spacing:.02em; }
+.reveal .meyelens-panel .meyelens-site-link { margin-top:12px; }
+/* Publication previews inside both pupillometry panels. */
+.reveal .pupillometry-showcase .panel { height:515px; }
+.reveal .meye-videos video { height:225px; }
+.reveal .meyelens-visuals img { height:215px; }
+.reveal .pupillometry-publication { display:flex; align-items:center; justify-content:center; flex:none; height:92px; width:100%; margin-top:10px; padding:5px; box-sizing:border-box; background:#fff; border-radius:5px; overflow:hidden; }
+.reveal .pupillometry-publication img { display:block; width:auto; max-width:100%; max-height:82px; object-fit:contain; }
+.reveal .meyelens-panel .meyelens-site-link { margin-top:9px; }
+/* Larger publication previews on the Pupillometry slide. */
+.reveal .pupillometry-showcase .panel { height:520px; }
+.reveal .meye-videos video { height:170px; }
+.reveal .meyelens-visuals img { height:160px; }
+.reveal .meye-panel > p:last-child { margin:0; }
+.reveal .pupillometry-publication { height:150px; margin-top:10px; padding:0; }
+.reveal .pupillometry-publication img { width:100%; height:100%; max-width:none; max-height:none; object-fit:cover; object-position:top; }
+/* Fully show the replacement publication images. */
+.reveal .meye-videos video { height:155px; }
+.reveal .meyelens-visuals img { height:145px; }
+.reveal .pupillometry-publication { height:180px; padding:0; background:transparent; }
+.reveal .pupillometry-publication img { display:block; width:100%; height:100%; max-width:100%; max-height:100%; object-fit:contain; object-position:center; border-radius:4px; }
+/* Balanced two-panel Pupillometry applications slide. */
+.reveal .pupil-applications { gap:18px; align-items:stretch; }
+.reveal .pupil-applications .application-panel { display:flex; flex-direction:column; box-sizing:border-box; height:515px; min-width:0; padding:17px 19px; background:#36393b; border:1px solid rgba(255,204,0,.48); }
+.reveal .pupil-applications h3 { margin:0 0 9px; padding:0 0 9px; color:#ffcc00; border-bottom:2px solid rgba(255,204,0,.45); font-size:1.17em; font-weight:760; }
+.reveal .pupil-applications .application-panel > p { min-height:69px; margin:0 0 8px; font-size:.82em; line-height:1.3; }
+.reveal .application-figure { display:flex; align-items:center; justify-content:center; flex:1; min-height:0; padding:5px; background:#fff; border-radius:6px; }
+.reveal .application-figure img { display:block; width:100%; height:100%; max-height:225px; object-fit:contain; }
+.reveal .application-publication { display:flex; align-items:center; justify-content:center; height:113px; flex:none; margin-top:10px; padding:5px; background:#fff; border-radius:6px; }
+.reveal .application-publication img { display:block; width:100%; height:100%; object-fit:contain; }
+/* One-click publication reveal sequence. */
+.reveal .publication-sequence > .publication-item:not(.fragment) { opacity:0; }
+.reveal .publication-sequence > .publication-item:first-child.visible ~ .publication-item { animation:publication-enter .42s ease-out both; animation-delay:var(--paper-delay,0s); }
+.reveal .publication-sequence > .publication-item:nth-child(2) { --paper-delay:.24s; }
+.reveal .publication-sequence > .publication-item:nth-child(3) { --paper-delay:.50s; }
+.reveal .publication-sequence > .publication-item:nth-child(4) { --paper-delay:.76s; }
+.reveal .publication-sequence > .publication-item:nth-child(5) { --paper-delay:1.02s; }
+.reveal .publication-sequence > .publication-item:nth-child(6) { --paper-delay:1.28s; }
+.reveal .publication-sequence > .publication-item:nth-child(7) { --paper-delay:1.54s; }
+.reveal .publication-sequence > .publication-item:nth-child(8) { --paper-delay:1.80s; }
+@keyframes publication-enter { from { opacity:0; } to { opacity:1; } }
+/* Larger CTD paper preview without clipping. */
+.reveal .ctd-fnirs .panel:last-child .evidence-figure { min-height:155px; margin:.2em 0; }
+.reveal .ctd-fnirs .panel:last-child .evidence-figure img { max-height:175px; }
+.reveal .ctd-fnirs .panel:last-child .evidence-source { height:205px; padding-top:.2em; }
+.reveal .ctd-fnirs .panel:last-child .evidence-source img { max-width:100%; max-height:195px; object-fit:contain; }
+/* Readable papers on the human fNIRS biomarker slide. */
+.reveal .fnirs-biomarker .evidence-figure { min-height:175px; margin:.25em 0; }
+.reveal .fnirs-biomarker .evidence-figure img { max-height:185px; }
+.reveal .fnirs-biomarker .evidence-source { height:160px; padding-top:.3em; }
+.reveal .fnirs-biomarker .evidence-source img { max-width:100%; max-height:150px; object-fit:contain; }
+/* Preliminary widefield gallery in Current works. */
+.reveal .current-works .widefield-panel { gap:6px; }
+.reveal .widefield-badge { display:inline-block; align-self:flex-start; margin:0 0 4px; padding:.23em .65em; color:#ffe8a6; background:rgba(255,224,145,.16); border:1px solid rgba(255,224,145,.7); border-radius:999px; font-size:.55em; font-weight:750; letter-spacing:.07em; text-transform:uppercase; }
+.reveal .widefield-gallery { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); grid-template-rows:repeat(2,minmax(0,1fr)); gap:9px; flex:1; min-height:0; }
+.reveal .widefield-tile { display:flex; flex-direction:column; align-items:center; justify-content:center; min-width:0; min-height:0; margin:0; padding:5px; background:#242629; border:1px solid rgba(255,204,0,.3); border-radius:6px; }
+.reveal .widefield-tile a { display:flex; align-items:center; justify-content:center; width:100%; min-height:0; flex:1; }
+.reveal .widefield-tile img,.reveal .widefield-tile video { display:block; width:100%; height:155px; max-height:100%; object-fit:contain; }
+.reveal .widefield-tile figcaption { margin-top:4px; color:#e5ddd0; font-size:.52em; font-weight:650; text-align:center; }
+/* Full-width widefield results gallery. */
+.reveal .widefield-full { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); grid-template-rows:repeat(2,220px); gap:12px 16px; width:100%; max-width:1150px; margin:0 auto; }
+.reveal .widefield-full figure { display:flex; flex-direction:column; align-items:center; justify-content:center; min-width:0; min-height:0; margin:0; padding:7px; background:#303438; border:1px solid rgba(255,204,0,.38); border-radius:8px; }
+.reveal .widefield-full figure a { display:flex; align-items:center; justify-content:center; width:100%; min-height:0; flex:1; }
+.reveal .widefield-full img,.reveal .widefield-full video { display:block; width:100%; height:188px; max-height:100%; object-fit:contain; }
+.reveal .widefield-full figcaption { margin-top:4px; color:#e5ddd0; font-size:.6em; font-weight:650; text-align:center; }
+/* Brain Endoscopy miniscope gallery. */
+.reveal .miniscope-grid { display:grid; grid-template-columns:minmax(0,58fr) minmax(0,42fr); grid-template-rows:180px 300px; gap:12px 16px; max-width:1140px; margin:0 auto; }
+.reveal .miniscope-grid figure { display:flex; flex-direction:column; align-items:center; justify-content:center; min-width:0; min-height:0; margin:0; padding:8px; background:#303438; border:1px solid rgba(255,204,0,.38); border-radius:8px; }
+.reveal .miniscope-grid .miniscope-traces { grid-column:2; grid-row:1 / 3; }
+.reveal .miniscope-grid .miniscope-traces a { display:flex; align-items:center; justify-content:center; min-height:0; flex:1; width:100%; }
+.reveal .miniscope-grid img,.reveal .miniscope-grid video { display:block; width:100%; max-height:100%; object-fit:contain; }
+.reveal .miniscope-grid .miniscope-setup img { height:145px; }
+.reveal .miniscope-grid .miniscope-video video { height:260px; }
+.reveal .miniscope-grid .miniscope-traces img { height:440px; }
+.reveal .miniscope-grid figcaption { margin-top:4px; color:#e5ddd0; font-size:.6em; font-weight:650; text-align:center; }
