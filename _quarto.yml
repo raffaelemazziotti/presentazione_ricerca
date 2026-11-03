@@ -3,6 +3,8 @@ project:
   output-dir: docs
   render:
     - index.qmd
+  resources:
+    - images/imgs/fnirs_peppa.mp4
 
 website:
   title: "Attività di ricerca"

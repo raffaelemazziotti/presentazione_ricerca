@@ -6,8 +6,8 @@
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.7.33">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.10.18">
 
   <meta name="author" content="Raffaele M. Mazziotti">
   <meta name="dcterms.date" content="2026-11-04">
@@ -18,10 +18,16 @@
   <link rel="stylesheet" href="site_libs/revealjs/dist/reset.css">
   <link rel="stylesheet" href="site_libs/revealjs/dist/reveal.css">
   <style>
-    code{white-space: pre-wrap;}
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
     span.smallcaps{font-variant: small-caps;}
-    div.columns{display: flex; gap: min(4vw, 1.5em);}
-    div.column{flex: auto; overflow-x: auto;}
+    div.columns{display: flex; gap: 1.5em;}
+    div.column{flex: auto;}
+    @media screen {
+    div.columns{gap: min(4vw, 1.5em);}
+    div.column{overflow-x: auto;}
+    }
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
     ul.task-list{list-style: none;}
     ul.task-list li input[type="checkbox"] {
@@ -30,7 +36,7 @@
       vertical-align: middle;
     }
   </style>
-  <link rel="stylesheet" href="site_libs/revealjs/dist/theme/quarto-f563837468303362081e247dddd440d0.css">
+  <link rel="stylesheet" href="site_libs/revealjs/dist/theme/quarto-2740581606dc327e82f18f789b69d8a0.css">
   <link rel="stylesheet" href="styles.css">
   <link href="site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
@@ -135,7 +141,7 @@
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
 <div class="quarto-title-author-name">
-Raffaele M. Mazziotti 
+Raffaele M. Mazziotti
 </div>
 </div>
 </div>
@@ -164,21 +170,29 @@ Raffaele M. Mazziotti
 </section>
 <section id="how-i-got-here-and-where-i-am-going" class="slide level2 center">
 <h2>How I got here and where I am going</h2>
+<div class="columns">
+<div class="column" style="width:70%;">
 <div class="lead">
 <p>My work on <span class="highlight">visual cortical plasticity</span> has evolved from understanding its molecular regulation to decoding visual information for translational applications.</p>
 </div>
-<div class="research-map">
+</div><div class="column" style="width:30%;">
+<p><img data-src="images/imgs/mouse_vcor.png" class="leftimg" style="width:80.0%"></p>
+</div></div>
+<div class="research-map journey-map">
 <div class="fragment map-item">
 <p><strong>01 · Epigenetic control</strong></p>
-<p>I first investigated how epigenetic factors regulate ocular-dominance plasticity and the development of depth perception.</p>
+<p>I first investigated how epigenetic (such as <code>MiR-132/212</code>) factors regulate ocular-dominance plasticity and the development of depth perception.</p>
+<p><img data-src="images/imgs/micro_rna.png"></p>
 </div>
 <div class="fragment map-item">
 <p><strong>02 · Peripheral modulation</strong></p>
 <p>I then examined how peripheral factors influence (like <code>gut microbiome</code>) visual cortical plasticity and shape the brain’s response to sensory experience.</p>
+<p><img data-src="images/imgs/gut_brain.png"></p>
 </div>
 <div class="fragment map-item">
 <p><strong>03 · Neural decoding &amp; prosthetics</strong></p>
-<p>I am now studying V1 neural codes to reconstruct what a mouse sees over time, with potential applications in visual prosthetics.</p>
+<p>I am now studying V1 neural codes to reconstruct what a mouse sees over time, with potential applications in visual prosthetics of the <code>optic nerve</code>.</p>
+<p><img data-src="images/imgs/optic_nerve.png"></p>
 </div>
 </div>
 <div class="fragment">
@@ -193,7 +207,7 @@ Raffaele M. Mazziotti
 </section>
 <section id="selected-publications-visual-cortical-plasticity" class="slide level2 center">
 <h2>Selected publications — visual cortical plasticity</h2>
-<div class="publication-list">
+<div class="publication-list visual-publications">
 <div class="fragment publication-item">
 <p><img data-src="images/publications/nature_comm.png"></p>
 </div>
@@ -209,25 +223,34 @@ Raffaele M. Mazziotti
 <div class="fragment publication-item">
 <p><img data-src="images/publications/running.png"></p>
 </div>
+<div class="fragment publication-item">
+<p><img data-src="images/publications/retinitis_pigmentosa.png"></p>
+</div>
+<div class="fragment publication-item">
+<p><img data-src="images/publications/micera.png"></p>
+</div>
+<div class="fragment publication-item">
+<p><img data-src="images/publications/micera2.png"></p>
+</div>
 </div>
 </section>
 <section id="functional-imaging-in-neurodevelopmental-disorders" class="slide level2 center">
 <h2>Functional imaging in neurodevelopmental disorders</h2>
 <div class="lead">
-<p>I use functional imaging to identify <span class="highlight">physiological biomarkers</span> in neurodevelopmental disorders — quantitative signals that can describe brain function beyond clinical observation alone.</p>
+<p>I use functional imaging to identify <span class="highlight">physiological biomarkers</span> in neurodevelopmental disorders: quantitative signals that can <u>describe brain function</u> beyond clinical observation alone.</p>
 </div>
 <div class="research-map">
 <div class="fragment map-item">
 <p><strong>01 · The goal</strong></p>
-<p>Identify robust functional markers that distinguish altered neural processing and can be followed across development or treatment.</p>
+<p>Identify robust <u>functional biomarkers</u> that distinguish altered neural processing and can be followed <u>across development or treatment</u>.</p>
 </div>
 <div class="fragment map-item">
 <p><strong>02 · Disease models</strong></p>
-<p>I focus on CDKL5 Deficiency Disorder (CDD) and Creatine Transporter Deficiency (CTD), two conditions with distinct developmental and neurological phenotypes.</p>
+<p>I focus on <u>CDKL5</u> Deficiency Disorder (CDD) and <u>Creatine</u> Transporter Deficiency (CTD), two conditions with distinct developmental and neurological phenotypes.</p>
 </div>
 <div class="fragment map-item">
 <p><strong>03 · Multimodal readouts</strong></p>
-<p>Intrinsic optical signal imaging, visual evoked potentials and EEG provide complementary measures of cortical function.</p>
+<p>Intrinsic optical signal imaging, visual evoked potentials and EEG provide <u>complementary measures</u> of cortical function.</p>
 </div>
 </div>
 <div class="fragment">
@@ -242,17 +265,25 @@ Raffaele M. Mazziotti
 </section>
 <section id="neurodevelopmental-biomarkers-selected-outputs" class="slide level2 center">
 <h2>Neurodevelopmental biomarkers: selected outputs</h2>
-<div class="biomarker-outputs">
-<div class="fragment biomarker-output">
+<div class="columns biomarker-columns">
+<div class="column" style="width:37%;">
+<p><img data-src="images/imgs/ios_que.gif"></p>
+</div><div class="column" style="width:63%;">
+<div class="biomarker-gallery">
+<div class="fragment biomarker-figure">
 <p><img data-src="images/neurodevelopment/ios_response_amplitude.png"></p>
 </div>
-<div class="fragment biomarker-output">
+<div class="fragment biomarker-figure">
 <p><img data-src="images/neurodevelopment/ios_visual_acuity.png"></p>
 </div>
-<div class="fragment biomarker-output">
+<div class="fragment biomarker-figure">
 <p><img data-src="images/neurodevelopment/ios_vep.png"></p>
 </div>
+<div class="fragment pca-overlay">
+<p><img data-src="images/neurodevelopment/cdkl5_pca.png"></p>
 </div>
+</div>
+</div></div>
 </section>
 <section id="selected-publications-neurodevelopmental-disorders" class="slide level2 center">
 <h2>Selected publications — neurodevelopmental disorders</h2>
@@ -283,32 +314,34 @@ Raffaele M. Mazziotti
 <section id="fnirs-in-humans" class="slide level2 center">
 <h2>fNIRS in humans</h2>
 <div class="lead">
-<p>Functional near-infrared spectroscopy (fNIRS) makes it possible to measure cortical haemodynamics in <span class="highlight">human participants</span> during engaging and developmentally appropriate tasks.</p>
+<p>Functional near-infrared spectroscopy (<u>fNIRS</u>) makes it possible to measure cortical haemodynamics in <span class="highlight">human participants</span> during engaging and developmentally appropriate tasks.</p>
 </div>
-<div class="research-map">
+<div class="research-map fnirs-map">
 <div class="fragment map-item">
-<p><strong>01 · Naturalistic measurement</strong></p>
+<p><strong>01 · Non-invasive measurement</strong></p>
 <p>Portable, non-invasive fNIRS can be used while participants watch audiovisual material or engage with an experimenter.</p>
+<p><img data-src="images/imgs/fnirs_noninv.jpg"></p>
 </div>
 <div class="fragment map-item">
 <p><strong>02 · Across development</strong></p>
-<p>The method is well suited to children as well as adults, supporting studies of developmental trajectories and individual variability.</p>
+<p>The method is well suited to children and adults, for studies of <u>developmental trajectories and individual variability</u>.</p>
+<p><img data-src="images/imgs/fnirs_baby.jpg"></p>
 </div>
 <div class="fragment map-item">
 <p><strong>03 · Translational potential</strong></p>
 <p>Human fNIRS can connect circuit-level findings from preclinical models to clinically relevant functional measures.</p>
+<p><img data-src="images/imgs/fnirs_trans.png"></p>
 </div>
 </div>
 </section>
 <section id="human-fnirs-from-stimulus-to-functional-marker" class="slide level2 center">
 <h2>Human fNIRS: from stimulus to functional marker</h2>
-<div class="two-col">
+<div class="two-col fnirs-comparison">
 <div class="panel">
 <p><strong>Child-friendly paradigms</strong></p>
-<p>Engaging audiovisual stimuli — for example <em>Peppa Pig</em> or <em>Finding Nemo</em> — help maintain attention while preserving experimental control.</p>
-<div class="fragment">
-<p>This makes it possible to acquire higher-quality recordings in children and clinical populations.</p>
-</div>
+<p>Engaging audiovisual stimuli based on cartoons selected by the participants that help maintain attention while preserving experimental control. This makes it possible to acquire higher-quality recordings in children and clinical populations.</p>
+<video class="research-video" src="images/imgs/fnirs_peppa.mp4" autoplay="" loop="" muted="" playsinline="" preload="auto" aria-label="Child-friendly fNIRS stimulus">
+</video>
 </div>
 <div class="panel">
 <p><strong>Physiological readouts</strong></p>
@@ -318,6 +351,7 @@ Raffaele M. Mazziotti
 <li>Lateralisation and functional connectivity</li>
 <li>Between-participant variability</li>
 </ul>
+<p><img data-src="images/imgs/fnirs_example.png"></p>
 </div>
 </div>
 </section>
@@ -544,7 +578,7 @@ Raffaele M. Mazziotti
         margin: 4.0e-2,
 
         math: {
-          mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js',
+          mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@2.7.9/MathJax.js',
           config: 'TeX-AMS_HTML-full',
           tex2jax: {
             inlineMath: [['\\(','\\)']],
@@ -618,13 +652,14 @@ Raffaele M. Mazziotti
           e.clearSelection();
         }
         const getTextToCopy = function(trigger) {
-            const codeEl = trigger.previousElementSibling.cloneNode(true);
-            for (const childEl of codeEl.children) {
-              if (isCodeAnnotation(childEl)) {
-                childEl.remove();
-              }
+          const outerScaffold = trigger.parentElement.cloneNode(true);
+          const codeEl = outerScaffold.querySelector('code');
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
             }
-            return codeEl.innerText;
+          }
+          return codeEl.innerText;
         }
         const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
           text: getTextToCopy

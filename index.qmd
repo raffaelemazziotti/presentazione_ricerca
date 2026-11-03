@@ -34,25 +34,44 @@ Is experience influencing brain output?
 
 ## How I got here and where I am going
 
+::: {.columns}
+::: {.column width="70%"}
+
 ::: {.lead}
 My work on [visual cortical plasticity]{.highlight} has evolved from understanding its molecular regulation to decoding visual information for translational applications.
 :::
 
-::: {.research-map}
+:::
+::: {.column width="30%"}
+
+![](images/imgs/mouse_vcor.png){.leftimg width="80%"}
+
+:::
+:::
+
+::: {.research-map .journey-map}
 ::: {.fragment .map-item}
 **01 · Epigenetic control**
 
-I first investigated how epigenetic factors regulate ocular-dominance plasticity and the development of depth perception.
+I first investigated how epigenetic (such as `MiR-132/212`) factors regulate ocular-dominance plasticity and the development of depth perception.
+
+![](images/imgs/micro_rna.png)
+
 :::
 ::: {.fragment .map-item}
 **02 · Peripheral modulation**
 
 I then examined how peripheral factors influence (like `gut microbiome`) visual cortical plasticity and shape the brain’s response to sensory experience.
+
+![](images/imgs/gut_brain.png)
+
 :::
 ::: {.fragment .map-item}
 **03 · Neural decoding & prosthetics**
 
-I am now studying V1 neural codes to reconstruct what a mouse sees over time, with potential applications in visual prosthetics.
+I am now studying V1 neural codes to reconstruct what a mouse sees over time, with potential applications in visual prosthetics of the `optic nerve`.
+
+![](images/imgs/optic_nerve.png)
 :::
 :::
 
@@ -62,7 +81,7 @@ The common thread is understanding how experience is translated into a stable �
 
 ## Selected publications — visual cortical plasticity
 
-::: {.publication-list}
+::: {.publication-list .visual-publications}
 ::: {.fragment .publication-item}
 ![](images/publications/nature_comm.png)
 :::
@@ -78,29 +97,38 @@ The common thread is understanding how experience is translated into a stable �
 ::: {.fragment .publication-item}
 ![](images/publications/running.png)
 :::
+::: {.fragment .publication-item}
+![](images/publications/retinitis_pigmentosa.png)
+:::
+::: {.fragment .publication-item}
+![](images/publications/micera.png)
+:::
+::: {.fragment .publication-item}
+![](images/publications/micera2.png)
+:::
 :::
 
 ## Functional imaging in neurodevelopmental disorders
 
 ::: {.lead}
-I use functional imaging to identify [physiological biomarkers]{.highlight} in neurodevelopmental disorders — quantitative signals that can describe brain function beyond clinical observation alone.
+I use functional imaging to identify [physiological biomarkers]{.highlight} in neurodevelopmental disorders: quantitative signals that can <u>describe brain function</u> beyond clinical observation alone.
 :::
 
 ::: {.research-map}
 ::: {.fragment .map-item}
 **01 · The goal**
 
-Identify robust functional markers that distinguish altered neural processing and can be followed across development or treatment.
+Identify robust <u>functional biomarkers</u> that distinguish altered neural processing and can be followed <u>across development or treatment</u>.
 :::
 ::: {.fragment .map-item}
 **02 · Disease models**
 
-I focus on CDKL5 Deficiency Disorder (CDD) and Creatine Transporter Deficiency (CTD), two conditions with distinct developmental and neurological phenotypes.
+I focus on <u>CDKL5</u> Deficiency Disorder (CDD) and <u>Creatine</u> Transporter Deficiency (CTD), two conditions with distinct developmental and neurological phenotypes.
 :::
 ::: {.fragment .map-item}
 **03 · Multimodal readouts**
 
-Intrinsic optical signal imaging, visual evoked potentials and EEG provide complementary measures of cortical function.
+Intrinsic optical signal imaging, visual evoked potentials and EEG provide <u>complementary measures</u> of cortical function.
 :::
 :::
 
@@ -110,15 +138,25 @@ The aim is not a single measure, but an interpretable [biosignature]{.core}: a p
 
 ## Neurodevelopmental biomarkers: selected outputs
 
-::: {.biomarker-outputs}
-::: {.fragment .biomarker-output}
+::: {.columns .biomarker-columns}
+::: {.column width="37%"}
+![](images/imgs/ios_que.gif)
+:::
+::: {.column width="63%"}
+::: {.biomarker-gallery}
+::: {.fragment .biomarker-figure}
 ![](images/neurodevelopment/ios_response_amplitude.png)
 :::
-::: {.fragment .biomarker-output}
+::: {.fragment .biomarker-figure}
 ![](images/neurodevelopment/ios_visual_acuity.png)
 :::
-::: {.fragment .biomarker-output}
+::: {.fragment .biomarker-figure}
 ![](images/neurodevelopment/ios_vep.png)
+:::
+::: {.fragment .pca-overlay}
+![](images/neurodevelopment/cdkl5_pca.png)
+:::
+:::
 :::
 :::
 
@@ -151,38 +189,48 @@ The aim is not a single measure, but an interpretable [biosignature]{.core}: a p
 ## fNIRS in humans
 
 ::: {.lead}
-Functional near-infrared spectroscopy (fNIRS) makes it possible to measure cortical haemodynamics in [human participants]{.highlight} during engaging and developmentally appropriate tasks.
+Functional near-infrared spectroscopy (<u>fNIRS</u>) makes it possible to measure cortical haemodynamics in [human participants]{.highlight} during engaging and developmentally appropriate tasks.
 :::
 
-::: {.research-map}
+::: {.research-map .fnirs-map}
 ::: {.fragment .map-item}
-**01 · Naturalistic measurement**
+**01 · Non-invasive measurement**
 
 Portable, non-invasive fNIRS can be used while participants watch audiovisual material or engage with an experimenter.
+
+![](images/imgs/fnirs_noninv.jpg)
+
 :::
 ::: {.fragment .map-item}
 **02 · Across development**
 
-The method is well suited to children as well as adults, supporting studies of developmental trajectories and individual variability.
+The method is well suited to children and adults, for studies of <u>developmental trajectories and individual variability</u>.
+
+![](images/imgs/fnirs_baby.jpg)
+
 :::
 ::: {.fragment .map-item}
 **03 · Translational potential**
 
 Human fNIRS can connect circuit-level findings from preclinical models to clinically relevant functional measures.
+
+![](images/imgs/fnirs_trans.png)
+
 :::
 :::
 
 ## Human fNIRS: from stimulus to functional marker
 
-::: {.two-col}
+::: {.two-col .fnirs-comparison}
 ::: {.panel}
 **Child-friendly paradigms**
 
-Engaging audiovisual stimuli — for example *Peppa Pig* or *Finding Nemo* — help maintain attention while preserving experimental control.
-
-::: {.fragment}
+Engaging audiovisual stimuli based on cartoons selected by the participants that help maintain attention while preserving experimental control.
 This makes it possible to acquire higher-quality recordings in children and clinical populations.
-:::
+
+<video class="research-video" src="images/imgs/fnirs_peppa.mp4" autoplay loop muted playsinline preload="auto" aria-label="Child-friendly fNIRS stimulus"></video>
+
+
 :::
 ::: {.panel}
 **Physiological readouts**
@@ -191,6 +239,9 @@ This makes it possible to acquire higher-quality recordings in children and clin
 - Response amplitude and latency
 - Lateralisation and functional connectivity
 - Between-participant variability
+
+![](images/imgs/fnirs_example.png)
+
 :::
 :::
 

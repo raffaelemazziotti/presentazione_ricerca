@@ -11,6 +11,8 @@
 .biomarker-outputs{display:flex;justify-content:center;align-items:center;gap:1.1em}.biomarker-output{flex:1;display:flex;justify-content:center;align-items:center;min-height:390px;padding:.6em;background:#5a5a5a;border:1px solid var(--line);border-radius:10px;box-shadow:0 10px 24px rgba(0,0,0,.22)}.biomarker-output img{max-width:100%;max-height:350px;object-fit:contain}
 .reveal code{color:#d8f0ff!important;background:#292929!important;border:1px solid rgba(120,199,255,.55);padding:.12em .34em;border-radius:5px;font-family:"Fira Code",Consolas,monospace;font-size:.82em;font-weight:600}
 
+.leftimg {  display: block;  margin-left: 0;  margin-right: auto;}
+
 /* Publication cards: a restrained frame around each paper image. */
 .publication-item{padding:.85em .38em .35em;background:rgba(255,255,255,.035);border:2px solid #a9d9f8;border-radius:6px}.publication-item img{padding:0;background:#fff;border:1px solid rgba(20,45,65,.28);max-height:108px}.publication-item:nth-child(7){top:310px;left:15%;width:68%;height:205px;padding:.95em .48em .4em;background:rgba(255,255,255,.035);border-width:2px;border-radius:6px;box-shadow:0 18px 38px rgba(0,0,0,.5)}.publication-item:nth-child(7)::before{content:"RESEARCH PAPER";font-size:.38em}.publication-item:nth-child(7) img{max-height:181px;max-width:98%}
 
@@ -20,3 +22,51 @@
 /* Papers are the visual objects: no oversized card surrounding them. */
 .publication-list{height:535px;max-width:1040px}.publication-item{width:48%;height:155px;padding:.55em .05em .05em;background:transparent;border:0;border-radius:0;box-shadow:none}.publication-item:hover{box-shadow:none}.publication-item::before{z-index:2}.publication-item img{max-height:140px;max-width:100%;border:0;box-shadow:0 10px 22px rgba(0,0,0,.38)}.publication-item:nth-child(1){top:0;left:3%}.publication-item:nth-child(2){top:66px;right:3%}.publication-item:nth-child(3){top:139px;left:13%}.publication-item:nth-child(4){top:212px;right:10%}.publication-item:nth-child(5){top:285px;left:4%}.publication-item:nth-child(6){top:358px;right:4%}.publication-item:nth-child(7){top:350px;left:19%;width:64%;height:180px;padding:.6em .05em .05em;background:transparent;border:0;box-shadow:none}.publication-item:nth-child(7) img{max-height:166px;max-width:100%;border:0}.publication-item:nth-child(7)::before{content:"RESEARCH PAPER"}
 .publication-item::before{top:.5em;left:50%;transform:translateX(-50%)}.publication-item:nth-child(7)::before{top:.55em;left:50%;transform:translateX(-50%)}
+
+/* Title slide: anchor author and date to the bottom edge of the 1280 x 720 canvas. */
+.reveal .slides section#title-slide { height: 720px !important; min-height: 720px; top: 0 !important; box-sizing: border-box; display: flex !important; flex-direction: column; justify-content: center; }
+.reveal #title-slide .quarto-title-authors { position: absolute !important; left: 10%; bottom: 24px; margin: 0; justify-content: flex-start; }
+.reveal #title-slide .date { position: absolute !important; right: 10%; bottom: 24px; margin: 0; }
+/* Eight papers in the original staggered publication collage. */
+.reveal .visual-publications { height: 540px; }
+.reveal .visual-publications .publication-item:nth-child(n) { width: 48%; height: 155px; padding: .55em .05em .05em; background: transparent; border: 0; box-shadow: none; }
+.reveal .visual-publications .publication-item:nth-child(n) img { max-height: 140px; max-width: 100%; border: 0; }
+.reveal .visual-publications .publication-item:nth-child(1) { top: 0; left: 3%; right: auto; transform: rotate(-4deg); z-index: 1; }
+.reveal .visual-publications .publication-item:nth-child(2) { top: 55px; right: 3%; left: auto; transform: rotate(4deg); z-index: 2; }
+.reveal .visual-publications .publication-item:nth-child(3) { top: 110px; left: 13%; right: auto; transform: rotate(-2deg); z-index: 3; }
+.reveal .visual-publications .publication-item:nth-child(4) { top: 165px; right: 10%; left: auto; transform: rotate(5deg); z-index: 4; }
+.reveal .visual-publications .publication-item:nth-child(5) { top: 220px; left: 4%; right: auto; transform: rotate(-5deg); z-index: 5; }
+.reveal .visual-publications .publication-item:nth-child(6) { top: 275px; right: 4%; left: auto; transform: rotate(2deg); z-index: 6; }
+.reveal .visual-publications .publication-item:nth-child(7) { top: 330px; left: 13%; right: auto; transform: rotate(-3deg); z-index: 7; }
+.reveal .visual-publications .publication-item:nth-child(8) { top: 385px; right: 3%; left: auto; transform: rotate(4deg); z-index: 8; }
+.reveal .visual-publications .publication-item:nth-child(8):hover { transform: rotate(4deg) scale(1.035); }
+/* Keep the three research-map illustrations centered and at a consistent visual scale. */
+.reveal .journey-map .map-item { display: flex; flex-direction: column; min-height: 280px; }
+.reveal .journey-map .map-item p:last-child { display: flex; align-items: center; justify-content: center; flex: 1; min-height: 125px; margin: .5em 0 0; }
+.reveal .journey-map .map-item img { display: block; width: auto; max-width: 88%; height: 115px; max-height: 115px; margin: 0 auto; object-fit: contain; }
+
+/* Biomarker outputs: open left column and an unframed image gallery on the right. */
+.reveal .biomarker-columns { align-items: center; gap: 1.2em; }
+.reveal .biomarker-gallery { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px 18px; align-items: center; }
+.reveal .biomarker-gallery .biomarker-figure { display: flex; align-items: center; justify-content: center; min-width: 0; min-height: 180px; }
+.reveal .biomarker-gallery .biomarker-figure:first-child { grid-column: 1 / -1; min-height: 230px; }
+.reveal .biomarker-gallery .biomarker-figure p { margin: 0; text-align: center; }
+.reveal .biomarker-gallery img { display: block; width: auto; max-width: 100%; max-height: 220px; margin: 0 auto; object-fit: contain; }
+.reveal .biomarker-gallery .biomarker-figure:not(:first-child) img { max-height: 190px; }
+
+/* Reveal the PCA figure last, covering the three earlier right-column figures. */
+.reveal .biomarker-gallery { position: relative; }
+.reveal .biomarker-gallery .pca-overlay { position: absolute; inset: 0; z-index: 10; display: flex; align-items: center; justify-content: center; background: var(--bg); }
+.reveal .biomarker-gallery .pca-overlay p { display: flex; align-items: center; justify-content: center; width: 100%; height: 100%; margin: 0; }
+.reveal .biomarker-gallery .pca-overlay img { width: auto; max-width: 100%; max-height: 100%; margin: 0 auto; object-fit: contain; }
+
+/* Center the fNIRS illustrations in equally sized areas within their three cards. */
+.reveal .fnirs-map .map-item { display: flex; flex-direction: column; min-height: 330px; }
+.reveal .fnirs-map .map-item p:last-child { display: flex; align-items: center; justify-content: center; flex: 1; min-height: 155px; margin: .55em 0 0; }
+.reveal .fnirs-map .map-item img { display: block; width: 100%; height: 145px; max-width: 100%; max-height: 145px; margin: 0 auto; object-fit: contain; }
+
+/* Match the video and fNIRS plot as equally sized media areas on this slide. */
+.reveal .fnirs-comparison .panel { display: flex; flex-direction: column; min-height: 485px; }
+.reveal .fnirs-comparison .panel video { display: block; width: 100%; height: 240px; max-height: 240px; margin: auto 0 0; object-fit: contain; }
+.reveal .fnirs-comparison .panel > p:last-child { margin-top: auto; margin-bottom: 0; }
+.reveal .fnirs-comparison .panel > p:last-child img { display: block; width: 100%; height: 240px; max-width: 100%; max-height: 240px; margin: 0 auto; object-fit: contain; }

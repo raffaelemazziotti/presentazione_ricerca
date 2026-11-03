@@ -11,7 +11,7 @@
     "href": "index.html#how-i-got-here-and-where-i-am-going",
     "title": "Research Overview",
     "section": "How I got here and where I am going",
-    "text": "How I got here and where I am going\n\nMy work on visual cortical plasticity has evolved from understanding its molecular regulation to decoding visual information for translational applications.\n\n\n\n01 · Epigenetic control\nI first investigated how epigenetic factors regulate ocular-dominance plasticity and the development of depth perception.\n\n\n02 · Peripheral modulation\nI then examined how peripheral factors influence (like gut microbiome) visual cortical plasticity and shape the brain’s response to sensory experience.\n\n\n03 · Neural decoding & prosthetics\nI am now studying V1 neural codes to reconstruct what a mouse sees over time, with potential applications in visual prosthetics.\n\n\n\n\n\n\nThe common thread is understanding how experience is translated into a stable — and potentially decodable — cortical representation."
+    "text": "How I got here and where I am going\n\n\n\nMy work on visual cortical plasticity has evolved from understanding its molecular regulation to decoding visual information for translational applications.\n\n\n\n\n\n\n01 · Epigenetic control\nI first investigated how epigenetic (such as MiR-132/212) factors regulate ocular-dominance plasticity and the development of depth perception.\n\n\n\n02 · Peripheral modulation\nI then examined how peripheral factors influence (like gut microbiome) visual cortical plasticity and shape the brain’s response to sensory experience.\n\n\n\n03 · Neural decoding & prosthetics\nI am now studying V1 neural codes to reconstruct what a mouse sees over time, with potential applications in visual prosthetics of the optic nerve.\n\n\n\n\n\n\n\nThe common thread is understanding how experience is translated into a stable — and potentially decodable — cortical representation."
   },
   {
     "objectID": "index.html#selected-publications-visual-cortical-plasticity",
@@ -25,7 +25,7 @@
     "href": "index.html#functional-imaging-in-neurodevelopmental-disorders",
     "title": "Research Overview",
     "section": "Functional imaging in neurodevelopmental disorders",
-    "text": "Functional imaging in neurodevelopmental disorders\n\nI use functional imaging to identify physiological biomarkers in neurodevelopmental disorders — quantitative signals that can describe brain function beyond clinical observation alone.\n\n\n\n01 · The goal\nIdentify robust functional markers that distinguish altered neural processing and can be followed across development or treatment.\n\n\n02 · Disease models\nI focus on CDKL5 Deficiency Disorder (CDD) and Creatine Transporter Deficiency (CTD), two conditions with distinct developmental and neurological phenotypes.\n\n\n03 · Multimodal readouts\nIntrinsic optical signal imaging, visual evoked potentials and EEG provide complementary measures of cortical function.\n\n\n\n\n\n\nThe aim is not a single measure, but an interpretable biosignature: a profile that links circuit function to the clinical phenotype."
+    "text": "Functional imaging in neurodevelopmental disorders\n\nI use functional imaging to identify physiological biomarkers in neurodevelopmental disorders: quantitative signals that can describe brain function beyond clinical observation alone.\n\n\n\n01 · The goal\nIdentify robust functional biomarkers that distinguish altered neural processing and can be followed across development or treatment.\n\n\n02 · Disease models\nI focus on CDKL5 Deficiency Disorder (CDD) and Creatine Transporter Deficiency (CTD), two conditions with distinct developmental and neurological phenotypes.\n\n\n03 · Multimodal readouts\nIntrinsic optical signal imaging, visual evoked potentials and EEG provide complementary measures of cortical function.\n\n\n\n\n\n\nThe aim is not a single measure, but an interpretable biosignature: a profile that links circuit function to the clinical phenotype."
   },
   {
     "objectID": "index.html#neurodevelopmental-biomarkers-selected-outputs",
@@ -46,14 +46,14 @@
     "href": "index.html#fnirs-in-humans",
     "title": "Research Overview",
     "section": "fNIRS in humans",
-    "text": "fNIRS in humans\n\nFunctional near-infrared spectroscopy (fNIRS) makes it possible to measure cortical haemodynamics in human participants during engaging and developmentally appropriate tasks.\n\n\n\n01 · Naturalistic measurement\nPortable, non-invasive fNIRS can be used while participants watch audiovisual material or engage with an experimenter.\n\n\n02 · Across development\nThe method is well suited to children as well as adults, supporting studies of developmental trajectories and individual variability.\n\n\n03 · Translational potential\nHuman fNIRS can connect circuit-level findings from preclinical models to clinically relevant functional measures."
+    "text": "fNIRS in humans\n\nFunctional near-infrared spectroscopy (fNIRS) makes it possible to measure cortical haemodynamics in human participants during engaging and developmentally appropriate tasks.\n\n\n\n01 · Non-invasive measurement\nPortable, non-invasive fNIRS can be used while participants watch audiovisual material or engage with an experimenter.\n\n\n\n02 · Across development\nThe method is well suited to children and adults, for studies of developmental trajectories and individual variability.\n\n\n\n03 · Translational potential\nHuman fNIRS can connect circuit-level findings from preclinical models to clinically relevant functional measures."
   },
   {
     "objectID": "index.html#human-fnirs-from-stimulus-to-functional-marker",
     "href": "index.html#human-fnirs-from-stimulus-to-functional-marker",
     "title": "Research Overview",
     "section": "Human fNIRS: from stimulus to functional marker",
-    "text": "Human fNIRS: from stimulus to functional marker\n\n\nChild-friendly paradigms\nEngaging audiovisual stimuli — for example Peppa Pig or Finding Nemo — help maintain attention while preserving experimental control.\n\nThis makes it possible to acquire higher-quality recordings in children and clinical populations.\n\n\n\nPhysiological readouts\n\nOxy- and deoxyhaemoglobin responses\nResponse amplitude and latency\nLateralisation and functional connectivity\nBetween-participant variability"
+    "text": "Human fNIRS: from stimulus to functional marker\n\n\nChild-friendly paradigms\nEngaging audiovisual stimuli based on cartoons selected by the participants that help maintain attention while preserving experimental control. This makes it possible to acquire higher-quality recordings in children and clinical populations.\n\n\n\n\nPhysiological readouts\n\nOxy- and deoxyhaemoglobin responses\nResponse amplitude and latency\nLateralisation and functional connectivity\nBetween-participant variability"
   },
   {
     "objectID": "index.html#fnirs-as-a-candidate-human-biomarker",
